@@ -20,7 +20,7 @@ full page and page controll
         </div>
     }
 ```
-### PS:page_controll 需要设置controll的布尔值，才能使用
+##### PS:page_controll 需要设置controll的布尔值，才能使用
 
 ### 默认参数
 
