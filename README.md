@@ -1,2 +1,8 @@
 # fullPage
-full page
+full page and page controll
+
+```js
+{
+    
+}
+```
