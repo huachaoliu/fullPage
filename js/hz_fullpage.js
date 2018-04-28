@@ -66,6 +66,9 @@
                 _this_.pageMove(opt, delta);
             });
         },
+        keyDown: function () {
+            
+        },
         pageMove: function (opt, delta) {
             if (opt.flag) {
                 if (delta > 0) {
@@ -89,7 +92,9 @@
             opt.container.stop().animate({
                 top: opt.index*opt.height
             }, function () {
-                opt.flag = true;
+                setTimeout(function () {
+                    opt.flag = true;                                                        
+                } ,1500);
             });
         },
         pageControll: function (opt) {
